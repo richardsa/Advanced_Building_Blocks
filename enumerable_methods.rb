@@ -157,8 +157,4 @@ module Enumerable
 		answer
 	end
     
-    def multiply_els
-      self.my_inject { |product, n| product * n }
-    end
-    	
 end
